@@ -6,7 +6,7 @@ Route::get('/', function () {
 
     $checklist = [
         'Preparation' => [
-            'Check Parking is SET',
+            'Check Parking Brake is SET',
             'Request Ground Power via the FMC',
             'Request PLAN from Simbrief in EFB',
             'Battery ON',
@@ -35,7 +35,7 @@ Route::get('/', function () {
             'Set ALTITUDE to MAX cleared level',
             'Set AUTO Brake to RTO (Rejected Take Off)',
             'Anti Collision Lights ON',
-            'CHECK BRAKES ON',
+            'Check Parking Brake is SET',
             '(6) Turn ON the remaining 3 Fuel Pumps',
             '(6) Turn ON the APU Bleed ready to turn the engine with compressed air',
             'Start Pushback',
