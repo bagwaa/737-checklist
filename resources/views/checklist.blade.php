@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checklist</title>
+    <title>PMDG 737 Checklist</title>
     @vite('resources/css/app.css')
 </head>
 
 <body class="container p-8">
-    <h1 class="text-3xl font-bold">737 Statup Procedure</h1>
+    <h1 class="text-3xl font-bold">PMDG 737 Statup Procedure</h1>
     <p class="my-2">This is my checklist to start the PMDG 737 in Microsoft Flight Simulator.</p>
     @foreach ($checklist as $section => $items)
         <h2 class="my-2 text-lg font-bold">{{ $section }}</h2>
